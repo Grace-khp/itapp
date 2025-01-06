@@ -1,0 +1,238 @@
+
+<!doctype>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial=scale=1" >
+<link rel="stylesheet" href="cart.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="cart.js"></script>
+<title>Cart</title>
+</head>
+
+<body>
+
+
+<div class="top">
+<img src="logoo.jpg" class="logo">
+</div>
+
+
+<div class="second-row"> 
+<form action="Blue-Search.html" method="post">
+<div class="s">
+<span class="search-icon material-symbols-outlined">search</span>
+<input type="search" name="search bar" id="search" class="search-input" placeholder="search"/>
+</div>
+</form>
+
+<a href="BZGY home.html">
+<div>
+<span class="home material-symbols-outlined">
+home
+</span>
+</div>
+</a>
+</div>
+
+
+
+<form action="order-form.html" method="POST" >
+<div>
+
+<br/>
+
+
+
+
+
+
+
+
+<div class="product">
+    <div >
+      <img src="Black-&-Gold-Crossbody-Bag.jpg" class="product-img">
+    </div><div class="no-img">
+    <div class="product-details">
+      <div class="product-name">Black &amp Gold Crossbody Bag</div>
+      <p class="product-description">Black Crossbody Bag with Gold Strap and Clasp</p></div>
+    <div class="product-price" id="Black-Gold-Crossbody-Bag-price">$49.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1" max="24" id="Black-Gold-Crossbody-Bag-quantity" onclick="hello()">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+   <div class="Black-Gold-Crossbody-Bag-total-price" >$49.99</div>
+  </div></div>
+  
+  
+  <div class="product"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div >
+      <img src="Gold-Bangle.jpg" class="product-img">
+    </div><div class="no-img">
+    <div class="product-details">
+      <div class="product-name">Gold Bangle</div>
+      <p class="product-description">14k Gold bangle </p></div>
+    <div class="product-price"id="Gold-Bangle-price">$1006.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1" max="24" id="Gold-Bangle-quantity" onclick="hoii()" >
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+   <div class="Gold-Bangle-total-price" >$1006.99</div></div></div>
+   
+   
+   <div class="product"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div >
+      <img src="Black-&-White-Checkered-Bag.jpg" class="product-img">
+    </div><div class="no-img">
+    <div class="product-details">
+      <div class="product-name">Black-&-White-Checkered-Bag</div>
+      <p class="product-description">Black &amp White Checkered HandBag perfect for casual and occasions</p></div>
+    <div class="product-price"id="Black-&-White-Checkered-Bag-price">$39.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1" max="24" id="Black-&-White-Checkered-Bag-quantity" onclick="hey()" >
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+   <div class="Black-&-White-Checkered-Bag-total-price" >$39.99</div></div></div>
+   
+   
+   
+   
+     
+   <div class="product"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div >
+      <img src="Black-&-White-Crossbody-Bag.jpg" class="product-img">
+    </div><div class="no-img">
+    <div class="product-details">
+      <div class="product-name">Black-&-White-Crossbody-Bag</div>
+      <p class="product-description">Black &amp White Crossbody HandBag perfect for casual and occasions</p></div>
+    <div class="product-price"id="Black-&-White-Crossbody-Bag-price">$79.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1" max="24" id="Black-&-White-Crossbody-Bag-quantity" onclick="fcc()" >
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+   <div class="Black-&-White-Crossbody-Bag-total-price" >$79.99</div></div></div>
+   
+   
+   
+   
+     
+   <div class="product"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div >
+      <img src="Classic Leather Big Buckle Belt1.jpg" class="product-img">
+    </div><div class="no-img">
+    <div class="product-details">
+      <div class="product-name">Classic Leather Big Buckle Belt</div>
+      <p class="product-description">Classic Leather Big Buckle Belt</p></div>
+    <div class="product-price"id="Classic Leather Big Buckle Belt-price">$136.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1" max="24" id="Black-&-Sliver-Belt-quantity" onclick="bsb()" >
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+   <div class="Classic Leather Big Buckle Belt-total-price" >$136.99</div></div></div>
+   
+</div>
+
+
+  <div class="totals">
+    
+   
+    <div class="totals-price">
+      <label>Total</label>
+      <div class="totals-value" id="cart-total"  onclick="boo()">$1313.95</div>
+    </div>
+  
+      <form action="order form.html">
+      <button class="checkout" formaction="OFFICIALPAYMENT.html">Checkout</button></form></div>
+
+</form></div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+ <script type="text/javascript" language="Javascript">
+ 
+ function hello(){
+ var a = document.getElementById("Black-Gold-Crossbody-Bag-price").innerHTML
+ var b = document.getElementById("Black-Gold-Crossbody-Bag-quantity").value
+ var result = a * b
+ var price = document.getElementsByClassName("Black-Gold-Crossbody-Bag-total-price")
+ price[0].innerHTML = result
+ 
+ }
+
+ 
+  
+ function hoii(){
+ var c = document.getElementById("Gold-Bangle-price").innerHTML
+ var d = document.getElementById("Gold-Bangle-quantity").value
+ var result = c * d
+ var price = document.getElementsByClassName("Gold-Bangle-total-price")
+ price[0].innerHTML = result
+ }
+ 
+   
+ function hey(){
+ var e = document.getElementById("Black-&-White-Checkered-Bag-price").innerHTML
+ var f = document.getElementById("Black-&-White-Checkered-Bag-quantity").value
+ var result = e * f
+ var price = document.getElementsByClassName("Black-&-White-Checkered-Bag-total-price")
+ price[0].innerHTML = result
+ }
+ 
+ function fcc(){
+ var g = document.getElementById("Black-&-White-Crossbody-Bag-price").innerHTML
+ var h = document.getElementById("Black-&-White-Crossbody-Bag-quantity").value
+ var result = g * h
+ var price = document.getElementsByClassName("Black-&-White-Crossbody-Bag-total-price")
+ price[0].innerHTML = result
+ }
+
+ 
+ function bsb(){
+ var I = document.getElementById("Classic Leather Big Buckle Belt-price").innerHTML
+ var J = document.getElementById("Classic Leather Big Buckle Belt-quantity").value
+ var result = I * J
+ var price = document.getElementsByClassName("Classic Leather Big Buckle Belt-total-price")
+ price[0].innerHTML = result
+ }
+   
+ //function boo(){
+ //var 1 = document.getElementsByClassName("product-line-price-1")[0].value
+ //var 2 = document.getElementsByClassName("product-line-price2")[0].value
+// var result = 1 + 2
+ //var price = document.getElementById("cart-total")
+ //price[0].value = result
+ //}
+
+</script>
+</html>
